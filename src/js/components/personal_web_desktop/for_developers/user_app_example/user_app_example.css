@@ -1,0 +1,17 @@
+user-app-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+user-app-example .user-app-example-wrapper {
+  display: flex;
+  width: 500px; /* Define width of app */
+  height: 500px; /* Define height of app */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

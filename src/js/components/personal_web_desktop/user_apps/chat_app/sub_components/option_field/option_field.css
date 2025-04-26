@@ -1,0 +1,37 @@
+option-field-editable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+option-field-editable .option-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
+option-field-editable .option-field-wrapper .field {
+  cursor: pointer;
+}
+
+option-field-editable .option-field-wrapper .title {
+  font-size: 12px;
+}
+
+option-field-editable .option-field-wrapper .field-name {
+  word-break: break-word;
+}
+
+option-field-editable .option-field-wrapper .dropdown-container {
+  transition: ease-in 0.2s;
+}
+
+option-field-editable .option-field-wrapper .dropdown-menu {
+  transition: ease-in 0.2s;
+  position: relative;
+  background-color: #26b0b0;
+}

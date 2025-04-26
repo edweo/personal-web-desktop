@@ -1,0 +1,143 @@
+task-manager {
+  display: flex;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+task-manager .task-manager-content {
+  width: 500px;
+  height: 350px;
+  display: grid;
+  grid-template: "top" 30px "process" auto "actions" min-content / auto;
+}
+
+task-manager .top-bar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  grid-area: top;
+  grid-auto-flow: column;
+
+  /* background-color: red; */
+  background-color: #0a3b59;
+  padding: 5px;
+}
+
+task-manager .process-display {
+  grid-area: process;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 7px;
+  padding: 0 7px 7px;
+  background-color: #0a3b59;
+  scrollbar-width: thin;
+  scrollbar-color: #0db3c5 rgb(14, 117, 113);
+}
+
+task-manager .actions {
+  grid-area: actions;
+  background-color: #185864;
+  height: fit-content;
+}
+
+task-manager .top-bar-column {
+  display: flex;
+  place-content: center center;
+  justify-content: center;
+  align-items: center;
+  background-color: #09b9d5;
+  color: white;
+}
+
+task-manager .column {
+  display: flex;
+  place-content: center center;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+task-manager .column-left {
+  display: flex;
+  place-content: center start;
+}
+
+task-manager .top-bar-column p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+task-manager .process-row {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  background-color: #2a3e50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+task-manager .process-top-bar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+task-manager .process-top-bar-title * {
+  cursor: pointer;
+}
+
+task-manager .process-row .process-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 5px;
+}
+
+task-manager .selected-row {
+  background-color: #6d1c96 !important;
+}
+
+task-manager .task-manager-process-group {
+  display: flex;
+  flex-direction: column;
+  background-color: #1586ab;
+  border-radius: 5px;
+}
+
+task-manager .process-group-top-bar {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #106383;
+  padding: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+task-manager .task-manager-process-group-button {
+  background-color: rgba(42, 75, 105, 0.5);
+  border-radius: inherit;
+}
+
+task-manager .task-manager-process-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+  border-radius: 5px;
+}
+
+task-manager .process-minimised {
+  background-color: rgb(98, 139, 162);
+}
+
+task-manager .selected-process-group {
+  background-color: #6d1c96 !important;
+}

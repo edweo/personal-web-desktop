@@ -1,0 +1,9 @@
+taskbar-pwd {
+  display: flex;
+  background-color: #282828;
+  justify-content: start;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  flex-wrap: wrap;
+}

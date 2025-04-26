@@ -1,0 +1,36 @@
+process-window {
+  display: flex;
+  position: absolute;
+}
+
+process-window .window {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+}
+
+process-window .window-top {
+  user-select: none;
+  background-color: #4b5c87;
+}
+
+process-window .window-info:hover {
+  cursor: move;
+}
+
+process-window .window-content {
+  background-color: #99bbd7;
+}
+
+process-window .window-bottom {
+  user-select: none;
+}
+
+process-window .icon {
+  width: 15px;
+  height: 15px;
+}
+
+process-window .window-info .title {
+  margin-bottom: 2px;
+}

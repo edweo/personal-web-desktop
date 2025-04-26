@@ -1,0 +1,13 @@
+taskbar-item {
+  display: flex;
+}
+
+taskbar-item .item {
+  user-select: none;
+  cursor: pointer;
+}
+
+taskbar-item .item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: ease-in 0.3s;
+}

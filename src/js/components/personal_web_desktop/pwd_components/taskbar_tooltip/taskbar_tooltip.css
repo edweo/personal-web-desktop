@@ -1,0 +1,10 @@
+taskbar-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+taskbar-tooltip .wrapper-tooltip {
+  position: absolute;
+  background-color: white;
+}

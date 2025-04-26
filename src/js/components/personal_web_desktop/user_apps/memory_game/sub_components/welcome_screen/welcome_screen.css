@@ -1,0 +1,28 @@
+welcome-screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+welcome-screen .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+welcome-screen .memory-icon {
+  height: 100px;
+  width: 100px;
+}
+
+welcome-screen input {
+  border: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
