@@ -5,6 +5,8 @@ This is a Personal Web Desktop (PWD) that is built with HTML5, CSS3/Tailwind, JS
 
 I tried my best to adhere to the separation of concerns principle and structure my code with an outlook of future development.
 
+[Link to PWD Application](https://edweo.github.io/personal-web-desktop/)
+
 ### Features
 - **Open Multiple Applications**
 - **Closing Applications Perform Clean-up (websockets, etc.)**
