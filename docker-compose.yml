@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  pwd:
+    build: .
+    image: pwd-image
+    container_name: pwd-container
+    ports:
+      - "4444:4444"
